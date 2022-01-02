@@ -1,0 +1,32 @@
+html, body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: antiquewhite;
+	position: absolute;
+}
+
+#watermelon {
+	margin: 0 auto;
+	position: relative;
+	bottom: 60%;
+	width: 80vw;
+	height: 80vw;
+	/* width: 50vw;
+	height: 50vw; */
+	border-radius: 50%;
+	background: conic-gradient(antiquewhite 40%, #0000 40%, #0000 60%, antiquewhite 60%), radial-gradient(tomato 0%, tomato 60%, lightgoldenrodyellow 60%, lightgoldenrodyellow 62.5%, seagreen 70%, seagreen 80%, seagreen 100%);
+}
+
+/* #watermelon::before {
+	position: relative;
+	display: block;
+	content: '';
+	background-color: black;
+	width: 1%;
+	height: 2.5%;
+	border-radius: 50%;
+
+	left: 50%;
+	top: 50%;
+} */
